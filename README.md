@@ -1,4 +1,4 @@
-# TML_Assignment2_Model_Stealing
+# TML Assignment2 Model Stealing in Self Supervised Learning
 
 - This assignment implements Model Stealing attack using the access to a victim encoder through API. The victim encoder is said to be protected by B4B. Based on this fact, we note that the representations returned  on querying the victim encoder are first applied different transformations and then returned to the attacker. This in turn reflects in the L2 distance obtained between the representations of the stolen and victim encoder.
 
