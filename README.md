@@ -13,12 +13,12 @@
  - No augmentations + MSE, No augmentations + Contrastive loss function, Augmentations + MSE, Augmentations + Contrastive loss
 
 ## Results
-| Approach                                  | L2 distance          | 
-|:-----------------------------------------:|:--------------------:|
-| Augmentations and Mean Squared Error      | 11.316974639892578   | 
-| No Augmentations and Mean Squared Error   | 11.385514259338379   | 
-| Augmentations and Contrastive functions   | Data 3               |
-| NoAugmentations and Contrastive functions | Data 3               |
+| Approach                                  | L2 distance          |File implementing the approach  | 
+|:-----------------------------------------:|:--------------------:|:-------------------------------|
+| Augmentations and Mean Squared Error      | 11.316974639892578   | TML_Assignment2_Approach1.ipynb|
+| No Augmentations and Mean Squared Error   | 11.385514259338379   | TML_Assignment2_Approach2.ipynb|
+| Augmentations and Contrastive functions   | Data 3               | TML_Assignment2_Approach3.ipynb|
+| NoAugmentations and Contrastive functions | Data 3               | TML_Assignment2_Approach4.ipynb|
 
 ## Further ideas on implementation
 
