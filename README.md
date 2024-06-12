@@ -17,7 +17,7 @@ Hence, we create 2 augmented datasets by applying horizontal flipping and graysc
 The query limit per API is 100. The length of the provided dataset is 13,000. In one query, we can obtain the representations for 1000 images. Thus, we need 13 queries in total to obtain representations for 13000 images. However, based on the previous discussion in the approach section, we understand that the representations returned for an image vary when queried multiple times. Thus, to obtain a variety of representations for an image, we decide to query the victim encoder with an image x number of times. This number x is calculated based on the query limit we have been given - 100/13 ~ 7 queries per set, meaning 7 queries per image. This helps us to make complete use of the available number of queries while also obtaining a wide variety of representations of an image.
 
 ## Results
-The above approach results in an L2 distance of 11.083867073059082 for 30% of the private data.
+The above approach results in an L2 distance of 10.007421493530273 for 30% of the private data.
 On using InfoNCE loss contrastive loss function, we obtain an L2 distance of around 30, which can possibly be reduced after hyperparameter tuning, which we did not try.
 
 ## Other ideas on implementation that our approach misses
